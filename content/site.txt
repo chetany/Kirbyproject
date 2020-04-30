@@ -1,0 +1,33 @@
+Title: test
+
+----
+
+Author: Morgan Brown
+
+----
+
+Description: A demo of Kirby 3 and Vue working together
+
+----
+
+Copyright: 
+
+----
+
+Custom-css: 
+
+----
+
+Custom-js: 
+
+----
+
+Custom-html: 
+
+----
+
+Favicon: 
+
+----
+
+Share-image: 

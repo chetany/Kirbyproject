@@ -1,0 +1,75 @@
+title: Site
+unlisted: true
+
+sections:
+
+  drafts:
+    headline: Drafts
+    type: pages
+    status: draft
+
+  unlisted:
+    headline: Unlisted
+    type: pages
+    status: unlisted
+
+  published:
+    headline: Published
+    type: pages
+    status: listed
+
+  favicon:
+    type: files
+    headline: Favicon (196 x 196, .png)
+    layout: list
+    info: "{{ file.dimensions }}"
+    template: favicon
+    max: 1
+
+  share_image:
+    type: files
+    headline: Share image (1200 x 630)
+    label: Share Image
+    layout: list
+    info: "{{ file.dimensions }}"
+    template: share_image
+    max: 1
+
+  content:
+    type: fields
+    fields:
+      title:
+        label: Title
+        type:  text
+
+      author:
+        label: Author
+        type:  text
+
+      description:
+        label: Description
+        type:  textarea
+        buttons: false
+
+      copyright:
+        label: Copyright
+        type:  textarea
+        buttons: false
+
+      custom_css:
+        label: Custom CSS
+        type:  textarea
+        buttons: false
+        size: large
+
+      custom_js:
+        label: Custom JavaScript
+        type:  textarea
+        buttons: false
+        size: large
+
+      custom_html:
+        label: Custom HTML
+        type:  textarea
+        buttons: false
+        size: large
